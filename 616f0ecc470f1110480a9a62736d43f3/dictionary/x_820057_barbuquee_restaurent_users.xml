@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Restaurent_users" max_length="40" name="x_820057_barbuquee_restaurent_users" type="collection">
+        <element label="Email_Id" max_length="40" name="email_id" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

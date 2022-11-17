@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_820057_barbuquee_restaurentregistration</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>setOwnerName</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var rest = new GlideRecord('x_820057_barbuquee_restaurentregistration');
+	var own = new GlideRecord('x_820057_barbuquee_booking_details');
+	var dupname = new GlideRecord('sys_user');
+	var hotel = own.getValue('u_string_1');
+	rest.addQuery('restaurentname',hotel);
+	rest.query();
+	if(rest.next())
+		{
+			var owner = rest.getValue('owner');
+			//dupname.get(owner);
+			//var name = gs.getUser().getUserByID(owner).getRecord().getValue('name');
+			var nm = gs.getUserName();
+			//dupname.addQuery('sys_id',owner);
+			//dupname.query();
+			//if(dupname.next())
+				//{
+					//var name = dupname.getValue('user_id');
+					own.setValue('u_owner_2','naveen');
+				//}
+			
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 07:15:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0af75c0047979110480a9a62736d43e3</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>setOwnerName</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+        <sys_update_name>sys_script_0af75c0047979110480a9a62736d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 08:41:29</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=0af75c0047979110480a9a62736d43e3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</application>
+        <file_path/>
+        <instance_id>40526613dbb00910e26fd7c8f4961975</instance_id>
+        <instance_name>dev120299</instance_name>
+        <name>sys_script_0af75c0047979110480a9a62736d43e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_820057_barbuquee_restaurentregistration&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;setOwnerName&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var rest = new GlideRecord('x_820057_barbuquee_restaurentregistration');
+	var own = new GlideRecord('x_820057_barbuquee_booking_details');
+	var dupname = new GlideRecord('sys_user');
+	var hotel = own.getValue('u_string_1');
+	rest.addQuery('restaurentname',hotel);
+	rest.query();
+	if(rest.next())
+		{
+			var owner = rest.getValue('owner');
+			//dupname.get(owner);
+			//var name = gs.getUser().getUserByID(owner).getRecord().getValue('name');
+			var nm = gs.getUserName();
+			//dupname.addQuery('sys_id',owner);
+			//dupname.query();
+			//if(dupname.next())
+				//{
+					//var name = dupname.getValue('user_id');
+					own.setValue('u_owner_2','naveen');
+				//}
+			
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-16 07:15:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0af75c0047979110480a9a62736d43e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;setOwnerName&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="barbuqueeNation" source="x_820057_barbuquee"&gt;616f0ecc470f1110480a9a62736d43f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="barbuqueeNation"&gt;616f0ecc470f1110480a9a62736d43f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_0af75c0047979110480a9a62736d43e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-16 08:41:29&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0af75c0047979110480a9a62736d43e3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>330225962</payload_hash>
+        <record_name>setOwnerName</record_name>
+        <reverted_from/>
+        <source>616f0ecc470f1110480a9a62736d43f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 08:41:29</sys_created_on>
+        <sys_id>6c8e288447d79110480a9a62736d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847f99afa80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 08:41:29</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>248e288403d7911078e06ca90ce0a799</update_guid>
+        <update_guid_history>248e288403d7911078e06ca90ce0a799:330225962,b13ee48416d791108d3cb34d49fda2a1:-82157942,683dac44c3d7911076063df044fdc946:-581374380,d61da844b2d79110ce9468fc092823f9:-1440619680,56fce00471d79110cf194d0ceba6fa9f:419188972,4b0c20047ad79110c74941e0a0c4cb61:-480093546,81eba804bed79110adc8ab2e3c5aee42:-1440619680,c06b2cc0bdd79110fdac26c698b8d494:419188972,fadae0c091d79110981ddf28036343f8:-480093546,5faa28800bd79110a154d59ec41d9721:-1440619680,b96a64802ed79110b6bf63d041cad419:1399882417,2d5aa04014d7911056b2e186ee69a7a8:-1457496067,c079244052d79110e8ff785b20b9270d:-207131020,7ae8a040d3d791100a43970daff859ae:-1263840688,802860403fd79110d72e3cb861a5f95c:-1082284632,aa08ec0081d791105125639f2d1aadce:-2070352434,7307200066d79110d9577f6933cf7c9b:1944778854,801024483a9791109838c2d99a9bfff1:-1091311600,21cfd408ae9791109b4f70a5d0129501:2119416880,43bed88429979110158169eebe9dbdb8:328786014,282d9884bf979110271b3d8096ef2790:1119029064,15cc1484a1979110a98a2ad4ec3b93d5:913409639,e0ea1080db97911020ac9cddbe9c7551:-836147918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 09:48:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>16f59df203a04a4cab78bdd8147ddf31</sys_id>
+        <sys_metadata>0af75c0047979110480a9a62736d43e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setOwnerName</sys_name>
+        <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+        <sys_parent display_value="RestaurentRegistration">95e6480047579110480a9a62736d4378</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+        <sys_scope_delete display_value="">27dcb670a5bb4fee8d79fbbdf1f70084</sys_scope_delete>
+        <sys_update_name>sys_script_0af75c0047979110480a9a62736d43e3</sys_update_name>
+        <sys_update_version display_value="sys_script_0af75c0047979110480a9a62736d43e3">6c8e288447d79110480a9a62736d4399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 09:48:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

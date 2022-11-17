@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="hotel_management_page">336d488447579110480a9a62736d43a9</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 06:15:46</sys_created_on>
+        <sys_id>eafcc48447579110480a9a62736d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FastReserve</sys_name>
+        <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+        <sys_update_name>sp_portal_eafcc48447579110480a9a62736d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:26:59</sys_updated_on>
+        <theme/>
+        <title>FastReserve</title>
+        <ts_index_group/>
+        <url_suffix>FR</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=eafcc48447579110480a9a62736d43c5"/>
+</record_update>

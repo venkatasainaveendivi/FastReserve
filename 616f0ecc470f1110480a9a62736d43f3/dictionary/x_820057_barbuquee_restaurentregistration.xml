@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="RestaurentRegistration" max_length="40" name="x_820057_barbuquee_restaurentregistration" sizeclass="4" type="collection">
+        <element label="Adress" max_length="40" name="adress" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="RestaurentName" max_length="40" name="restaurentname" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

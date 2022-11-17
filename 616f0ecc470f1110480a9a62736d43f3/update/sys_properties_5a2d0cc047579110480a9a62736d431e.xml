@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.FR.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 06:15:46</sys_created_on>
+        <sys_id>5a2d0cc047579110480a9a62736d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.FR.enable_rem_conversion</sys_name>
+        <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+        <sys_update_name>sys_properties_5a2d0cc047579110480a9a62736d431e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:15:46</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a2d0cc047579110480a9a62736d431e"/>
+</record_update>

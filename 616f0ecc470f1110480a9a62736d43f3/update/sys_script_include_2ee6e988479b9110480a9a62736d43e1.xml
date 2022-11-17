@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_820057_barbuquee.setOwnerName</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>setOwnerName</name>
+        <script><![CDATA[function setOwnerName()
+{
+	var own = new GlideRecord('x_820057_barbuquee_booking_details');
+	var rest = new GlideRecord('x_820057_barbuquee_restaurentregistration');
+	
+			var rest_name = own.getValue('u_string_1');
+            //var rest_name=g_form.getValue('u_string_1');
+            gs.addInfoMessage(rest_name);
+	//return rest_name;
+	//var rest_name='Mayuri';
+	rest.addQuery('restaurentname',rest_name);
+    rest.query();
+    //return rest_name;
+	if(rest.next())
+		{
+			var owner = rest.getValue('owner');
+			own.setValue('u_owner_2',owner);
+			return 1;
+		}
+	else
+		{
+			return 2;
+		}
+		
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 12:57:18</sys_created_on>
+        <sys_id>2ee6e988479b9110480a9a62736d43e1</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>setOwnerName</sys_name>
+        <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+        <sys_update_name>sys_script_include_2ee6e988479b9110480a9a62736d43e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 16:31:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
