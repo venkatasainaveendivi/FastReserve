@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="restaurentname" label="RestaurentName" language="en" table="x_820057_barbuquee_restaurentregistration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>restaurentname</element>
+            <help/>
+            <hint/>
+            <label>RestaurentName</label>
+            <language>en</language>
+            <name>x_820057_barbuquee_restaurentregistration</name>
+            <plural>RestaurentNames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-16 05:51:12</sys_created_on>
+            <sys_id>de87804047579110480a9a62736d43b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>RestaurentName</sys_name>
+            <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
+            <sys_update_name>sys_documentation_x_820057_barbuquee_restaurentregistration_restaurentname_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-16 05:51:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
