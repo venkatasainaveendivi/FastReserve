@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="booking_details" max_length="40" name="x_820057_barbuquee_booking_details" sizeclass="0" type="collection">
+    <element label="booking_details" max_length="40" name="x_820057_barbuquee_booking_details" sizeclass="5" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Email_Id" max_length="40" name="emailid" type="string"/>
         <element label="No_Of_Seats" max_length="40" name="no_of_seats" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
