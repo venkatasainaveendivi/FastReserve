@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="booking_details" max_length="40" name="x_820057_barbuquee_booking_details" sizeclass="1" type="collection">
+    <element label="booking_details" max_length="40" name="x_820057_barbuquee_booking_details" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Email_Id" max_length="40" name="emailid" type="string"/>
         <element label="No_Of_Seats" max_length="40" name="no_of_seats" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="TimeStamp" max_length="40" name="u_insert_timestamp_3" type="insert_timestamp"/>
+        <element label="status" max_length="40" name="u_integer_1" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
         <element attributes="encode_utf8=false" label="Owner" max_length="32" name="u_owner_2" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Restaurent" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_string_dt" type="string"/>
         <index name="index">
             <element name="u_owner_2"/>
