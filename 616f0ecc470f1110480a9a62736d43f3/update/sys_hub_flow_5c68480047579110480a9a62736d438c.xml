@@ -11,12 +11,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>reservationsflow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_string_dt","label":"Trigger - Record Created or Updated➛booking_details Record➛Date/Time","reference":"","reference_display":"Date/Time","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_dt"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛booking_details Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_id"},{"name":"Created or Updated_1.current.u_name","label":"Trigger - Record Created or Updated➛booking_details Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_name"},{"name":"Created or Updated_1.current.emailid","label":"Trigger - Record Created or Updated➛booking_details Record➛Email_Id","reference":"","reference_display":"Email_Id","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"emailid"},{"name":"Created or Updated_1.current.no_of_seats","label":"Trigger - Record Created or Updated➛booking_details Record➛No_Of_Seats","reference":"","reference_display":"No_Of_Seats","type":"integer","base_type":"integer","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"no_of_seats"},{"name":"Created or Updated_1.current.u_string_1","label":"Trigger - Record Created or Updated➛booking_details Record➛Restaurent","reference":"","reference_display":"Restaurent","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_1"},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛booking_details Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_created_by"},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛booking_details Record","reference":"x_820057_barbuquee_booking_details","reference_display":"booking_details","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.u_owner_2","label":"Trigger - Record Created or Updated➛booking_details Record➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_owner_2"},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_owner_2","label":"Trigger - Record Created or Updated➛booking_details Record➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_owner_2"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛booking_details Record","reference":"x_820057_barbuquee_booking_details","reference_display":"booking_details","type":"reference","base_type":"reference","attributes":{}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛booking_details Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_created_by"},{"name":"Created or Updated_1.current.u_string_1","label":"Trigger - Record Created or Updated➛booking_details Record➛Restaurent","reference":"","reference_display":"Restaurent","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_1"},{"name":"Created or Updated_1.current.no_of_seats","label":"Trigger - Record Created or Updated➛booking_details Record➛No_Of_Seats","reference":"","reference_display":"No_Of_Seats","type":"integer","base_type":"integer","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"no_of_seats"},{"name":"Created or Updated_1.current.emailid","label":"Trigger - Record Created or Updated➛booking_details Record➛Email_Id","reference":"","reference_display":"Email_Id","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"emailid"},{"name":"Created or Updated_1.current.u_name","label":"Trigger - Record Created or Updated➛booking_details Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_name"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛booking_details Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_id"},{"name":"Created or Updated_1.current.u_string_dt","label":"Trigger - Record Created or Updated➛booking_details Record➛Date/Time","reference":"","reference_display":"Date/Time","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_dt"}]</label_cache>
         <master_snapshot>3bc00ad4479bd110480a9a62736d4393</master_snapshot>
         <name>reservationsFlow</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>d530be6d47331110480a9a62736d43a0</remote_trigger_id>
+        <remote_trigger_id>7204876147b31110480a9a62736d4356</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c68480047579110480a9a62736d438c</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>reservationsFlow</sys_name>
         <sys_overrides/>
         <sys_package display_value="barbuqueeNation" source="x_820057_barbuquee">616f0ecc470f1110480a9a62736d43f3</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name>sys_hub_flow_5c68480047579110480a9a62736d438c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5c68480047579110480a9a62736d438c"/>
@@ -57,42 +57,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-16 06:30:26</sys_created_on>
+        <sys_created_on>2022-12-16 07:57:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d530be6d47331110480a9a62736d43a0</sys_id>
+        <sys_id>7204876147b31110480a9a62736d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <table>x_820057_barbuquee_booking_details</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"5130be6d47331110480a9a62736d43a1","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"fa04876147b31110480a9a62736d4356","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>5c68480047579110480a9a62736d438c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-16 06:30:26</sys_created_on>
-        <sys_id>5130be6d47331110480a9a62736d43a1</sys_id>
+        <sys_created_on>2022-12-16 07:57:06</sys_created_on>
+        <sys_id>fa04876147b31110480a9a62736d4356</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
-        <trigger display_value="">d530be6d47331110480a9a62736d43a0</trigger>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
+        <trigger display_value="">7204876147b31110480a9a62736d4356</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>5130be6d47331110480a9a62736d43a1</document_id>
+        <document_id>fa04876147b31110480a9a62736d4356</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-16 06:30:26</sys_created_on>
-        <sys_id>1930be6d47331110480a9a62736d43a1</sys_id>
+        <sys_created_on>2022-12-16 07:57:06</sys_created_on>
+        <sys_id>b204876147b31110480a9a62736d4357</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5c68480047579110480a9a62736d438c^sys_idNOT IN5130be6d47331110480a9a62736d43a1"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5c68480047579110480a9a62736d438c^sys_idNOT INfa04876147b31110480a9a62736d4356"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=5c68480047579110480a9a62736d438c^sys_idNOT IN8379c0c047579110480a9a62736d4335"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 05:59:43</sys_created_on>
         <sys_id>8379c0c047579110480a9a62736d4335</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -175,7 +175,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc5307e6d8d331110f6b4649bda58b5e8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe204476103b31110f0c1a4dee186ecc3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 05:59:43</sys_created_on>
         <sys_id>0b79c0c047579110480a9a62736d431f</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -314,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 05:59:43</sys_created_on>
         <sys_id>4779c0c047579110480a9a62736d4323</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -395,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 05:59:43</sys_created_on>
         <sys_id>4b79c0c047579110480a9a62736d431a</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -432,10 +432,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 05:59:43</sys_created_on>
         <sys_id>0779c0c047579110480a9a62736d433d</sys_id>
-        <sys_mod_count>116</sys_mod_count>
+        <sys_mod_count>120</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:32:49</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <ui_id>475c7df5-bcbc-4779-8bac-b32fbddc011e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0779c0c047579110480a9a62736d433d"/>
@@ -559,10 +559,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 06:12:56</sys_created_on>
         <sys_id>208c008447579110480a9a62736d4377</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>116</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:32:49</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <ui_id>c5707da8-bf41-4ece-b59a-48f15cebcfee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=208c008447579110480a9a62736d4377"/>
@@ -728,10 +728,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 06:08:58</sys_created_on>
         <sys_id>a69b804447579110480a9a62736d4382</sys_id>
-        <sys_mod_count>114</sys_mod_count>
+        <sys_mod_count>118</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:32:49</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <ui_id>460f0336-411e-469e-8e69-837d933a5cbc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a69b804447579110480a9a62736d4382"/>
@@ -812,13 +812,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 06:08:58</sys_created_on>
         <sys_id>ae9b804447579110480a9a62736d4384</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:02</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff0000;"&gt;hiii&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:04a3743e-12b9-4297-8436-139c5256834a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:04a3743e-12b9-4297-8436-139c5256834a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; booking_details Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_04a3743e-12b9-4297-8436-139c5256834a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ccff;"&gt;Your booking in&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:8383bd9e-4424-4b38-818d-a43cf596e0f7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Restaurent"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Restaurent&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8383bd9e-4424-4b38-818d-a43cf596e0f7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;&lt;img src="MayuriLogo.jpg" width="81" height="81" /&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style="color: #3366ff;"&gt;for&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a1619865-4859-4c87-be4e-c3ec328feca3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; No_Of_Seats"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;No_Of_Seats&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a1619865-4859-4c87-be4e-c3ec328feca3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style="color: #cc99ff;"&gt;Seats on&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4bba0056-5d2d-4d81-a613-045c854ca8e7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4bba0056-5d2d-4d81-a613-045c854ca8e7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; booking_details Record &amp;gt; Date/Time"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Date/Time&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4bba0056-5d2d-4d81-a613-045c854ca8e7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ff00;"&gt;is booked succesfully&amp;nbsp; please find ur bookind id&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:427d5d07-853f-4a51-94d6-8e93fdea7aa8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Sys ID"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Sys ID&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_427d5d07-853f-4a51-94d6-8e93fdea7aa8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;please be sure to be at the restaurent 10 mins before ur reservation time.If not ur reservation will be cancelled.If you have any queries reach us at &lt;span style="color: #3366ff;"&gt;fastreserve@gmail.com or call us at 76543219012 u can find the location of ours here &lt;iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.7954483555764!2d78.39426871405279!3d17.517275303658643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8e1d463eb00d%3A0xf584e38f5cc67eb!2sMayur%20Restaurant!5e0!3m2!1sen!2sin!4v1671172086917!5m2!1sen!2sin" width="600" height="450" allowfullscreen=""&gt;&lt;/iframe&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ff00;"&gt;is booked succesfully&amp;nbsp; please find ur bookind id&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:427d5d07-853f-4a51-94d6-8e93fdea7aa8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Sys ID"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Sys ID&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_427d5d07-853f-4a51-94d6-8e93fdea7aa8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;please be sure to be at the restaurent 10 mins before ur reservation time.If not ur reservation will be cancelled.If you have any queries reach us at &lt;span style="color: #3366ff;"&gt;fastreserve@gmail.com or call us at 76543219012 u can find the location of ours here &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;we are happily waiting for ur arrival,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style="text-decoration: underline;"&gt;&lt;span style="color: #ff0000; text-decoration: underline;"&gt;&amp;nbsp;&lt;em&gt;Thankyou&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&lt;img src="MayuriLogo.jpg" width="81" height="81" /&gt;&lt;/p&gt;</value>
@@ -922,10 +922,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 06:08:58</sys_created_on>
         <sys_id>e29b804447579110480a9a62736d4378</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <ui_id>33dc606a-78d3-46eb-b87a-855de9f1815b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -967,10 +967,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 06:12:55</sys_created_on>
         <sys_id>ec8c008447579110480a9a62736d436e</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <ui_id>444d3f01-3fbe-4a1b-ae21-98fd7148a41c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1228,18 +1228,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"98d04ad4479bd110480a9a62736d433c","name":"plan","plan_signature":null}}</plan>
         <plan_id>5c68480047579110480a9a62736d438c</plan_id>
-        <snapshot>04c0f6ad47331110480a9a62736d4334</snapshot>
+        <snapshot>3bc00ad4479bd110480a9a62736d4393</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98d04ad4479bd110480a9a62736d433c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
-        <trigger display_value="">d530be6d47331110480a9a62736d43a0</trigger>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
+        <trigger display_value="">7204876147b31110480a9a62736d4356</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5c68480047579110480a9a62736d438c"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1253,7 +1253,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>reservationsflow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_string_dt","label":"Trigger - Record Created or Updated➛booking_details Record➛Date/Time","reference":"","reference_display":"Date/Time","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_dt"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛booking_details Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_id"},{"name":"Created or Updated_1.current.u_name","label":"Trigger - Record Created or Updated➛booking_details Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_name"},{"name":"Created or Updated_1.current.emailid","label":"Trigger - Record Created or Updated➛booking_details Record➛Email_Id","reference":"","reference_display":"Email_Id","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"emailid"},{"name":"Created or Updated_1.current.no_of_seats","label":"Trigger - Record Created or Updated➛booking_details Record➛No_Of_Seats","reference":"","reference_display":"No_Of_Seats","type":"integer","base_type":"integer","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"no_of_seats"},{"name":"Created or Updated_1.current.u_string_1","label":"Trigger - Record Created or Updated➛booking_details Record➛Restaurent","reference":"","reference_display":"Restaurent","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_1"},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛booking_details Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_created_by"},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛booking_details Record","reference":"x_820057_barbuquee_booking_details","reference_display":"booking_details","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.u_owner_2","label":"Trigger - Record Created or Updated➛booking_details Record➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_owner_2"},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5707da8-bf41-4ece-b59a-48f15cebcfee.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_owner_2","label":"Trigger - Record Created or Updated➛booking_details Record➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_owner_2"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛booking_details Record","reference":"x_820057_barbuquee_booking_details","reference_display":"booking_details","type":"reference","base_type":"reference","attributes":{}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"475c7df5-bcbc-4779-8bac-b32fbddc011e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.email","label":"3 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__action_status__","label":"3 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"460f0336-411e-469e-8e69-837d933a5cbc.__dont_treat_as_error__","label":"3 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛booking_details Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_created_by"},{"name":"Created or Updated_1.current.u_string_1","label":"Trigger - Record Created or Updated➛booking_details Record➛Restaurent","reference":"","reference_display":"Restaurent","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_1"},{"name":"Created or Updated_1.current.no_of_seats","label":"Trigger - Record Created or Updated➛booking_details Record➛No_Of_Seats","reference":"","reference_display":"No_Of_Seats","type":"integer","base_type":"integer","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"no_of_seats"},{"name":"Created or Updated_1.current.emailid","label":"Trigger - Record Created or Updated➛booking_details Record➛Email_Id","reference":"","reference_display":"Email_Id","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"emailid"},{"name":"Created or Updated_1.current.u_name","label":"Trigger - Record Created or Updated➛booking_details Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_name"},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛booking_details Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"sys_id"},{"name":"Created or Updated_1.current.u_string_dt","label":"Trigger - Record Created or Updated➛booking_details Record➛Date/Time","reference":"","reference_display":"Date/Time","type":"string","base_type":"string","parent_table_name":"x_820057_barbuquee_booking_details","column_name":"u_string_dt"}]</label_cache>
         <master>true</master>
         <name>reservationsFlow</name>
         <natlang/>
@@ -1270,7 +1270,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3bc00ad4479bd110480a9a62736d4393</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1278,7 +1278,7 @@
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3bc00ad4479bd110480a9a62736d4393"/>
@@ -1293,10 +1293,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>0cd00ad4479bd110480a9a62736d43f3</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:26</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:06</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1365,7 +1365,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc5307e6d8d331110f6b4649bda58b5e8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe204476103b31110f0c1a4dee186ecc3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1423,14 +1423,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:32</sys_created_on>
         <sys_id>3bc00ad4479bd110480a9a62736d43b8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1504,14 +1504,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:32</sys_created_on>
         <sys_id>ccd00ad4479bd110480a9a62736d43c0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1585,14 +1585,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:32</sys_created_on>
         <sys_id>f3c00ad4479bd110480a9a62736d4398</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1622,10 +1622,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>0cd00ad4479bd110480a9a62736d43e6</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <ui_id>460f0336-411e-469e-8e69-837d933a5cbc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0cd00ad4479bd110480a9a62736d43e6"/>
@@ -1692,13 +1692,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>4cd00ad4479bd110480a9a62736d43e8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:24</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #ff0000;"&gt;hiii&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:04a3743e-12b9-4297-8436-139c5256834a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:04a3743e-12b9-4297-8436-139c5256834a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; booking_details Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_04a3743e-12b9-4297-8436-139c5256834a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ccff;"&gt;Your booking in&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:8383bd9e-4424-4b38-818d-a43cf596e0f7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Restaurent"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Restaurent&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8383bd9e-4424-4b38-818d-a43cf596e0f7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;&lt;img src="MayuriLogo.jpg" width="81" height="81" /&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style="color: #3366ff;"&gt;for&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a1619865-4859-4c87-be4e-c3ec328feca3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; No_Of_Seats"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;No_Of_Seats&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a1619865-4859-4c87-be4e-c3ec328feca3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; &lt;span style="color: #cc99ff;"&gt;Seats on&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4bba0056-5d2d-4d81-a613-045c854ca8e7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4bba0056-5d2d-4d81-a613-045c854ca8e7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; booking_details Record &amp;gt; Date/Time"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Date/Time&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4bba0056-5d2d-4d81-a613-045c854ca8e7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ff00;"&gt;is booked succesfully&amp;nbsp; please find ur bookind id&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:427d5d07-853f-4a51-94d6-8e93fdea7aa8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Sys ID"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Sys ID&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_427d5d07-853f-4a51-94d6-8e93fdea7aa8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;please be sure to be at the restaurent 10 mins before ur reservation time.If not ur reservation will be cancelled.If you have any queries reach us at &lt;span style="color: #3366ff;"&gt;fastreserve@gmail.com or call us at 76543219012 u can find the location of ours here &lt;iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.7954483555764!2d78.39426871405279!3d17.517275303658643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8e1d463eb00d%3A0xf584e38f5cc67eb!2sMayur%20Restaurant!5e0!3m2!1sen!2sin!4v1671172086917!5m2!1sen!2sin" width="600" height="450" allowfullscreen=""&gt;&lt;/iframe&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="color: #00ff00;"&gt;is booked succesfully&amp;nbsp; please find ur bookind id&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:427d5d07-853f-4a51-94d6-8e93fdea7aa8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; booking_details Record &amp;gt; Sys ID"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Sys ID&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_427d5d07-853f-4a51-94d6-8e93fdea7aa8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;please be sure to be at the restaurent 10 mins before ur reservation time.If not ur reservation will be cancelled.If you have any queries reach us at &lt;span style="color: #3366ff;"&gt;fastreserve@gmail.com or call us at 76543219012 u can find the location of ours here &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;we are happily waiting for ur arrival,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style="text-decoration: underline;"&gt;&lt;span style="color: #ff0000; text-decoration: underline;"&gt;&amp;nbsp;&lt;em&gt;Thankyou&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&lt;img src="MayuriLogo.jpg" width="81" height="81" /&gt;&lt;/p&gt;</value>
@@ -1793,10 +1793,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>8cd00ad4479bd110480a9a62736d43da</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <ui_id>475c7df5-bcbc-4779-8bac-b32fbddc011e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cd00ad4479bd110480a9a62736d43da"/>
@@ -1920,10 +1920,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>c0d00ad4479bd110480a9a62736d43f0</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <ui_id>c5707da8-bf41-4ece-b59a-48f15cebcfee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c0d00ad4479bd110480a9a62736d43f0"/>
@@ -2083,10 +2083,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>84d00ad4479bd110480a9a62736d43d1</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <ui_id>444d3f01-3fbe-4a1b-ae21-98fd7148a41c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2116,10 +2116,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 09:19:33</sys_created_on>
         <sys_id>ccd00ad4479bd110480a9a62736d43cc</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="barbuqueeNation">616f0ecc470f1110480a9a62736d43f3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-16 06:30:25</sys_updated_on>
+        <sys_updated_on>2022-12-16 07:57:05</sys_updated_on>
         <ui_id>33dc606a-78d3-46eb-b87a-855de9f1815b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
